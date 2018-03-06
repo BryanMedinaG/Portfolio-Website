@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+
+
+html {
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(/Picture/Photoshop/CloudyMountain.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+i {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    padding: 5px;
+    border: solid #000000;
+    border-width: 0 1px 1px 0;
+    display:inline-block;
+    margin-bottom: 4px;
+    border-color: white;
+    text-decoration: none;
+    margin-left: 4px;
+
+    
+}
+i:hover{
+    border-color: grey;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px
+}
+
+ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+    margin-left: 1400px
+}
+
+li {
+    float: left;
+    color: white;
+    display: block;
+    padding: 15px 14px;
+
+}
+
+li a:hover {
+    color: grey;
+}
+
+.box{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
