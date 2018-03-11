@@ -1,50 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
 
 
 html {
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
+}
+
+header {
+    height: 100vh;
 }
 
 body {
-    background-image: url(/Picture/Photoshop/CloudyMountain.jpeg);
+    background-image: url(/Picture/Photoshop/wood.jpeg);
     background-size: cover;
-    background-attachment: fixed;
-}
+    margin: 0;
 
-i {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    padding: 5px;
-    border: solid #000000;
-    border-width: 0 1px 1px 0;
-    display:inline-block;
-    margin-bottom: 4px;
-    border-color: white;
-    text-decoration: none;
-    margin-left: 4px;
-
-    
-}
-i:hover{
-    border-color: grey;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-    margin-right: 10px;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+.navs {
     color: white;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 21px
+    font-size: 21px;
 }
 
 ul {
@@ -54,7 +36,8 @@ ul {
     color: white;
     text-decoration: none;
     text-decoration-color: white;
-    margin-left: 1400px
+    margin-left: 74%;
+     transition: all 0.5s;
 }
 
 li {
@@ -62,36 +45,57 @@ li {
     color: white;
     display: block;
     padding: 15px 14px;
+    transition: all 0.5s;
 
 }
 
-li a:hover {
-    color: grey;
+li:hover {
+    color: #c6c6c6;
 }
 
-.box{
-    background-color: white;
+.name {
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+    position: absolute;
+    padding: 15px 14px;
+
 }
 
+.welcome {
+    text-align: center;
+    margin-top: 15%;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-shadow: 1px 1px black;
+    
 
 
+}
 
+.butt {
+    border: solid;
+    max-width: 190px;
+    margin-left: 46%;
+    border-radius: 7px;
+    transition: all 0.5s;
+    padding: 2px;
+}
+.butt:hover {
+    color: black;
+    border: solid 2px;
+    max-width: 190px;
+    border-radius: 7px;
+}
 
+#section1 {
+    height: 100vh;
+    background-color: aliceblue;
+    width: 100%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
