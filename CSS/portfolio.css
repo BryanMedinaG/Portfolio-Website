@@ -15,6 +15,7 @@ body {
     background-image: url(/Picture/Photoshop/wood.jpeg);
     background-size: cover;
     margin: 0;
+    overflow-x: hidden;
 
 }
 
@@ -37,7 +38,7 @@ ul {
     text-decoration: none;
     text-decoration-color: white;
     margin-left: 74%;
-     transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 li {
@@ -63,39 +64,200 @@ li:hover {
 
 }
 
+/*A----------PEN BY Naoya----------*/
+
 .welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font: normal 300 64px/1 'Josefin Sans', sans-serif;
     text-align: center;
-    margin-top: 15%;
-    font-size: 50px;
-    font-family: 'Josefin Sans', sans-serif;
-    color: white;
-    text-shadow: 1px 1px black;
-    
-
-
+    white-space: nowrap;
 }
 
-.butt {
-    border: solid;
-    max-width: 190px;
-    margin-left: 46%;
-    border-radius: 7px;
-    transition: all 0.5s;
-    padding: 2px;
-}
-.butt:hover {
-    color: black;
-    border: solid 2px;
-    max-width: 190px;
-    border-radius: 7px;
+.demo a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    transition: opacity .3s;
 }
 
+.demo a:hover {
+    opacity: .5;
+}
+
+#section0 a {
+    padding-top: 60px;
+}
+
+#section0 a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+#section0 a span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+
+/*--------------------*/
+
+/*-----Scroll Bar-----*/
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e3dcdc;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #817d7d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/*--------------------*/
+
+
+/*--------Section1---------*/
 #section1 {
-    height: 100vh;
-    background-color: aliceblue;
+    height: 50vh;
+    background-color: #565e65;
     width: 100%;
+    margin: auto 0;
 
 }
+#section1 h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+#section1 p{
+    font-size: 24px;
+     margin: 0 auto;
+    max-width: 1200px;
+}
+/*--------------------*/
+
+/*--------Section2---------*/
+.section2{
+    height: 50vh;
+    background: url(/Picture/codde.jpeg);
+    background-size: cover;
+}
+.codd{
+     background-image: url(/Picture/codde.jpeg);
+    background-attachment: fixed;
+}
+
+/*--------------------*/
+
+/*-------- ---------*/
+/*--------------------*/
+
+/*-------- ---------*/
+/*--------------------*/
+
+/*-------- ---------*/
+/*--------------------*/
+
+/*-------- ---------*/
+/*--------------------*/
+
+/*-------- ---------*/
+/*--------------------*/
+
+/*-------- ---------*/
+/*--------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
