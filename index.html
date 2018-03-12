@@ -6,38 +6,10 @@
     <title>Online Portfolio </title>
     <link rel="stylesheet" href="CSS/portfolio.css">
     <script src="JS/portfolio.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            // Add smooth scrolling to all links
-            $("a").on('click', function(event) {
-
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 1000, function() {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-        });
-
-    </script>
 </head>
 
 <body>
-    <header>
+    <header id="top">
         <div class="navs">
             <div class="name"><a href="#">Bryan G. Medina</a></div>
             <ul>
@@ -51,25 +23,24 @@
   <h1 class="welcome">My Portfolio</h1>
   <a href="#section1"><span></span></a>
 </section>
-
+        <div><a class="stt" href="#top">Top</a></div>
     </header>
     <main>
         <section id="section1">
-            <h1> About Me</h1>
+            <h1 class="about"> About Me</h1>
             <p>
-                Hello, I’m Bryan. I’m currently a student over at The Center of Advanced Research & Technology. I am enrolled in the Web Development lab. Everyone in the class learn how to use use multiple coding languages such as HTML, CSS, and JavaScript. When learning these coding languages we also learn how to work on projects with groups. These projects can be challenging but the end product is always the best feeling when you see what you and your team has made. 
+                Hello, I’m Bryan. I’m currently a student over at The Center of Advanced Research & Technology. I am enrolled in the Web Development lab. Everyone in the class learns how to use use multiple coding languages such as HTML, CSS, and JavaScript. When learning these coding languages we also learn how to work with groups on  projects. These projects can be challenging but the end product is always the best feeling when you see what you and your team has made. 
             </p>
         </section>
         <section class="section2">
             <div id="codd" data-stellar-background-ratio="0.5"></div>
+        </section>
+        <section class="section2">
+            
         </section>
     </main>
     <footer>
 
     </footer>
 </body>
-<script src="JS/jquery.stellar.min.js"></script>
-<script
-   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script> $.stellar();</script>
 </html>

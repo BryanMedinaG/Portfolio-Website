@@ -12,7 +12,7 @@ header {
 }
 
 body {
-    background-image: url(/Picture/Photoshop/wood.jpeg);
+    background-image: url(/Picture/wood.jpeg);
     background-size: cover;
     margin: 0;
     overflow-x: hidden;
@@ -24,6 +24,24 @@ a {
     color: inherit;
 }
 
+.stt:hover{
+    opacity: .5;
+}
+.stt{
+    border: solid white; 
+    max-width: 10%;
+    text-align: center;
+    padding: 10px 10px; 
+    border-radius:10px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-transform: translate(3400%, 1900%);
+    transform: translate(3400%, 1900%);
+    position: fixed;
+    text-shadow: 1.5px 1.5px black;
+    box-shadow: 1px 1px 20px black 
+}
 .navs {
     color: white;
     font-family: 'Josefin Sans', sans-serif;
@@ -33,12 +51,14 @@ a {
 ul {
     overflow: hidden;
     margin: 0;
+    
     padding: 0;
     color: white;
     text-decoration: none;
     text-decoration-color: white;
     margin-left: 74%;
     transition: all 0.5s;
+    font-size: 
 }
 
 li {
@@ -64,7 +84,7 @@ li:hover {
 
 }
 
-/*A----------PEN BY Naoya----------*/
+/*A----------Button and Header----------*/
 
 .welcome {
     position: absolute;
@@ -151,20 +171,25 @@ li:hover {
 /*--------Section1---------*/
 #section1 {
     height: 50vh;
-    background-color: #565e65;
+    background-color: #ffffff;
     width: 100%;
     margin: auto 0;
 
 }
-#section1 h1{
+.about{
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 300%;
+    margin-top: 
+    
+    
 
 }
 #section1 p{
     font-size: 24px;
      margin: 0 auto;
     max-width: 1200px;
+    margin-top: 8%;
 }
 /*--------------------*/
 
@@ -173,6 +198,7 @@ li:hover {
     height: 50vh;
     background: url(/Picture/codde.jpeg);
     background-size: cover;
+    background-attachment: fixed;
 }
 .codd{
      background-image: url(/Picture/codde.jpeg);
@@ -181,7 +207,9 @@ li:hover {
 
 /*--------------------*/
 
-/*-------- ---------*/
+/*--------Section 3---------*/
+
+
 /*--------------------*/
 
 /*-------- ---------*/
