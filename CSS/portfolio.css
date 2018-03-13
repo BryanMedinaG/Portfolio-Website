@@ -48,7 +48,7 @@ a {
     font-size: 21px;
 }
 
-ul {
+.ul {
     overflow: hidden;
     margin: 0;
     
@@ -61,7 +61,7 @@ ul {
     font-size: 
 }
 
-li {
+.li {
     float: left;
     color: white;
     display: block;
@@ -70,7 +70,7 @@ li {
 
 }
 
-li:hover {
+.li:hover {
     color: #c6c6c6;
 }
 
@@ -170,10 +170,11 @@ li:hover {
 
 /*--------Section1---------*/
 #section1 {
-    height: 50vh;
+    height: 50%;
     background-color: #ffffff;
     width: 100%;
     margin: auto 0;
+    padding-bottom: 2%;
 
 }
 .about{
@@ -189,16 +190,16 @@ li:hover {
     font-size: 24px;
      margin: 0 auto;
     max-width: 1200px;
-    margin-top: 8%;
+}
+#section1 h1{
+ padding: 15px
 }
 /*--------------------*/
 
 /*--------Section2---------*/
-.section2{
-    height: 50vh;
-    background: url(/Picture/codde.jpeg);
-    background-size: cover;
-    background-attachment: fixed;
+
+#section2 h1{
+    
 }
 .codd{
      background-image: url(/Picture/codde.jpeg);
@@ -224,7 +225,42 @@ li:hover {
 /*-------- ---------*/
 /*--------------------*/
 
-/*-------- ---------*/
+/*--------Footer---------*/
+footer{
+    height: 30vh;
+    display: flex;
+    background:#776363; 
+    background: linear-gradient(-180deg,#000000,#2e2e2e, #2f2f2f,#313131);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.left-side{
+    flex: 1;
+    max-width: 32.22%;
+    margin-left: 1%;
+    padding-top: 1%;
+    
+}
+.footer-li{
+    list-style: none;
+    flex: 1;
+    max-width: 100%;
+    padding: 3%;
+    font-size: 20px;
+    
+}
+.middle-side{
+    list-style: none;
+    padding: 20px; 
+    flex: 2;
+    max-width: 30%;
+    text-align: center
+}
+.middle-side li{
+    padding:6px;
+    
+}
 /*--------------------*/
 
 
