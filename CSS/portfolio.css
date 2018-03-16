@@ -31,6 +31,7 @@ a {
 
 .stt:hover{
     opacity: .5;
+    z-index: 2;
 }
 .stt{
     border: solid white; 
@@ -45,7 +46,9 @@ a {
     transform: translate(3400%, 1900%);
     position: fixed;
     text-shadow: 1.5px 1.5px black;
-    box-shadow: 1px 1px 20px black 
+    box-shadow: 1px 1px 20px black ;
+    z-index: 2;
+    
 }
 .navs {
     color: white;
