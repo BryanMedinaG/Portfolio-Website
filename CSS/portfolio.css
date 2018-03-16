@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
 
 
-html body {
+html,body {
     padding: 0;
     margin: 0;
+    height: 100%;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
 }
 
 .page-zero {
-    background-image: url(/Picture/skrrt.JPG);
+    background-image: url(/Picture/rocks.jpeg);
     background-size: cover;
     margin: 0;
     overflow-x: hidden;
@@ -45,10 +46,12 @@ a {
     background-color: transparent;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
-    -webkit-transform: translate(3400%, 1900%);
-    transform: translate(3400%, 1900%);
     position: fixed;
     text-shadow: 1.5px 1.5px black;
+    box-shadow: 1px 1px 1px 1px black;
+    top: 90%;
+    right: 5%;
+    
 }
 
 .navs {
@@ -249,7 +252,6 @@ footer {
 
 }
 
-.left-side {}
 
 .left-side {
 
@@ -301,20 +303,33 @@ footer {
 
 /*--------Media Query for---------*/
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)
-{
-    .navs{
-    position: absolute;
-    }  
-    .name{
-        
-    }
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .navs{
+        margin-top
+        }
+        .left-side{
+         
+        }
 }
 
 /*--------------------*/
 
-/*-------- ---------*/
-
+/*--------Page2---------*/
+.page2{
+    //background: url(/Picture/rocks.jpeg);
+    //background-size:
+}
+.background2{
+    height: 100%;
+    background-image: url(/Picture/bridge.jpeg);
+    background-size: cover;
+}
+.section2-1{
+    height: 100vh;
+}
 /*--------------------*/
 
 /*-------- ---------*/
@@ -340,3 +355,141 @@ footer {
 /*-------- ---------*/
 
 /*--------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
