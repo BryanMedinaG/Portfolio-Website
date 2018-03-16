@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
 
 
-html {
+html body {
     padding: 0;
     margin: 0;
 }
@@ -11,33 +11,36 @@ header {
     height: 100vh;
 }
 
-body {
-    background-image: url(/Picture/wood.jpeg);
+.page-zero {
+    background-image: url(/Picture/skrrt.JPG);
     background-size: cover;
     margin: 0;
     overflow-x: hidden;
     background-attachment: fixed;
 
 }
-li{
+
+li {
     text-decoration: none;
     list-style: none;
     transition: all 0.5s;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
-.stt:hover{
+.stt:hover {
     opacity: .5;
 }
-.stt{
-    border: solid white; 
+
+.stt {
+    border: solid white;
     max-width: 10%;
     text-align: center;
-    padding: 10px 10px; 
-    border-radius:10px;
+    padding: 10px 10px;
+    border-radius: 10px;
     background-color: transparent;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
@@ -45,8 +48,9 @@ a {
     transform: translate(3400%, 1900%);
     position: fixed;
     text-shadow: 1.5px 1.5px black;
-    box-shadow: 1px 1px 20px black 
+    box-shadow: 1px 1px 20px black;
 }
+
 .navs {
     color: white;
     font-family: 'Josefin Sans', sans-serif;
@@ -56,14 +60,14 @@ a {
 .ul {
     overflow: hidden;
     margin: 0;
-    
+
     padding: 0;
     color: white;
     text-decoration: none;
     text-decoration-color: white;
     margin-left: 74%;
     transition: all 0.5s;
-    font-size: 
+    font-size:
 }
 
 .li {
@@ -170,10 +174,11 @@ li:hover {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
 /*--------------------*/
 
-
 /*--------Section1---------*/
+
 #section1 {
     height: 50%;
     background-color: #ffffff;
@@ -182,32 +187,31 @@ li:hover {
     padding-bottom: 2%;
 
 }
-.about{
+
+.about {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 300%;
-    margin-top: 
-    
-    
-
 }
-#section1 p{
+
+#section1 p {
     font-size: 24px;
-     margin: 0 auto;
+    margin: 0 auto;
     max-width: 1200px;
 }
-#section1 h1{
- padding: 15px
+
+#section1 h1 {
+    padding: 15px;
 }
+
 /*--------------------*/
 
 /*--------Section2---------*/
 
-#section2 h1{
-    
-}
-.codd{
-     background-image: url(/Picture/codde.jpeg);
+#section2 h1 {}
+
+.codd {
+    background-image: url(/Picture/codde.jpeg);
     background-attachment: fixed;
 }
 
@@ -215,138 +219,124 @@ li:hover {
 
 /*--------Section 3---------*/
 
+/*--------------------*/
+
+/*-------- ---------*/
 
 /*--------------------*/
 
 /*-------- ---------*/
+
 /*--------------------*/
 
 /*-------- ---------*/
+
 /*--------------------*/
 
 /*-------- ---------*/
-/*--------------------*/
 
-/*-------- ---------*/
 /*--------------------*/
 
 /*--------Footer---------*/
-footer{
-    height: 36vh;
+
+footer {
+    height: 40%;
     display: flex;
-    background:#776363; 
-    background: linear-gradient(-180deg,#000000,#2e2e2e, #2f2f2f,#313131);
+    background: #776363;
+    background: linear-gradient(-180deg, #000000, #2e2e2e, #2f2f2f, #313131);
     color: white;
     font-family: 'Josefin Sans', sans-serif;
-    
+
 }
-.left-side{
-    
-}
-.left-side{
-   
+
+.left-side {}
+
+.left-side {
+
     width: 33.33%;
     margin-left: 1%;
     padding-top: 1%;
     text-align: center;
     font-size: 20px;
-    
-    
+
+
 }
-.footer-li{
+
+.footer-li {
     list-style: none;
     flex: 1;
-
     padding: 3%;
     font-size: 20px;
     text-align-last: center;
     cursor: context-menu;
-    
+
 }
-.middle-side h2{
-    
-}
-.middle-side{
+
+.middle-side h2 {}
+
+.middle-side {
     list-style: none;
-    padding: 20px; 
+    padding: 20px;
     text-align: center;
     width: 33.33%;
     font-size: 20px
 }
-.middle-side li{
-    padding:6px;
+
+.middle-side li {
+    padding: 6px;
 }
-.right-side{
+
+.right-side {
     width: 33.33%;
     float: right;
-    padding:20;
+    padding: 20;
     text-align-last: center
 }
-.right-side li:hover{
+
+.right-side li:hover {
     opacity: .5;
 }
-   
+
 /*--------------------*/
 
+/*--------Media Query for---------*/
 
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)
+{
+    .navs{
+    position: absolute;
+    }  
+    .name{
+        
+    }
+}
 
+/*--------------------*/
 
+/*-------- ---------*/
 
+/*--------------------*/
 
+/*-------- ---------*/
 
+/*--------------------*/
 
+/*-------- ---------*/
 
+/*--------------------*/
 
+/*-------- ---------*/
 
+/*--------------------*/
 
+/*-------- ---------*/
 
+/*--------------------*/
 
+/*-------- ---------*/
 
+/*--------------------*/
 
+/*-------- ---------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*--------------------*/
