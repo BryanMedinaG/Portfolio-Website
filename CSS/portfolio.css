@@ -5,6 +5,7 @@
 html body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
 }
 
 .page-zero {
-    background-image: url(/Picture/skrrt.JPG);
+    background-image: url(/Picture/road.jpg);
     background-size: cover;
     margin: 0;
     overflow-x: hidden;
@@ -221,7 +222,52 @@ li:hover {
 
 /*--------------------*/
 
-/*-------- ---------*/
+/*--------Page 2---------*/
+.resume{
+    background-image: url(/Picture/rainy_road.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+.summary2{
+    top: 50%;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    background-color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 200%;
+    padding: 10px;
+    margin-top: 10%
+   
+}
+.summary2 h1{
+    text-align: center;
+}
+.summary2 p{
+    padding: 20px
+}
+.section2-1{
+    background-color: white;
+    font-size: 130%;
+    padding: 5px;
+    margin: auto;
+    max-width: 80%;
+
+}
+
+.RTop{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    //font-size: 30px;
+}
+.h2top{
+    text-align: center;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif
+}
 
 /*--------------------*/
 
@@ -236,6 +282,38 @@ li:hover {
 /*-------- ---------*/
 
 /*--------------------*/
+
+
+/*--------------------*/
+
+/*-----------------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
 
 /*--------Footer---------*/
 
@@ -311,32 +389,3 @@ footer {
     }
 }
 
-/*--------------------*/
-
-/*-------- ---------*/
-
-/*--------------------*/
-
-/*-------- ---------*/
-
-/*--------------------*/
-
-/*-------- ---------*/
-
-/*--------------------*/
-
-/*-------- ---------*/
-
-/*--------------------*/
-
-/*-------- ---------*/
-
-/*--------------------*/
-
-/*-------- ---------*/
-
-/*--------------------*/
-
-/*-------- ---------*/
-
-/*--------------------*/
