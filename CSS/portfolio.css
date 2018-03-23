@@ -1,83 +1,450 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
-@import url('https://fonts.googleapis.com/css?family=Aclonica');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
 
-html {
+
+html,body {
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
+    overflow-x: hidden;
 }
 
-body {
-    background-image: url(/Picture/Photoshop/CloudyMountain.jpeg);
+header {
+    height: 100vh;
+}
+
+.page-zero {
+    background-image: url(/Picture/road.jpg);
     background-size: cover;
+    margin: 0;
+    overflow-x: hidden;
     background-attachment: fixed;
+
 }
 
-i {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    padding: 5px;
-    border: solid #000000;
-    border-width: 0 1px 1px 0;
-    display:inline-block;
-    margin-bottom: 4px;
-    border-color: white;
+li {
     text-decoration: none;
-    margin-left: 4px;
-
-    
-}
-i:hover{
-    border-color: grey;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-    margin-right: 10px;
+    list-style: none;
+    transition: all 0.5s;
 }
 
 a {
     text-decoration: none;
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 21px
+    color: inherit;
 }
 
-ul {
+.stt:hover {
+    opacity: .5;
+    z-index: 2;
+}
+
+.stt {
+    border: solid white;
+    max-width: 10%;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    position: fixed;
+    text-shadow: 1.5px 1.5px black;
+    box-shadow: 1px 1px 1px 1px black;
+    top: 90%;
+    right: 5%;
+    
+}
+
+.navs {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+}
+
+.ul {
     overflow: hidden;
     margin: 0;
+
     padding: 0;
     color: white;
     text-decoration: none;
     text-decoration-color: white;
-    margin-left: 74%
+    margin-left: 74%;
+    transition: all 0.5s;
+    font-size:
 }
 
-li {
+.li {
     float: left;
     color: white;
     display: block;
     padding: 15px 14px;
+    transition: all 0.5s;
 
 }
 
-li a:hover {
-    color: grey;
+li:hover {
+    color: #c6c6c6;
+    transform: scale(1.2);
 }
 
-.title{
+.name {
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+    position: absolute;
+    padding: 15px 14px;
+
+}
+
+/*A----------Button and Header----------*/
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font: normal 300 64px/1 'Josefin Sans', sans-serif;
     text-align: center;
-    font-family: 'Aclonica', sans-serif;
-    background-blend-mode: overlay;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 50px
+    white-space: nowrap;
+}
+
+.demo a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    transition: opacity .3s;
+}
+
+.demo a:hover {
+    opacity: .5;
+}
+
+#section0 a {
+    padding-top: 60px;
+}
+
+#section0 a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+#section0 a span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+
+/*--------------------*/
+
+/*-----Scroll Bar-----*/
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e3dcdc;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #817d7d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/*--------------------*/
+
+/*--------Section1---------*/
+
+#section1 {
+    height: 50%;
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto 0;
+    padding-bottom: 2%;
+
+}
+
+.about {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 300%;
+}
+
+#section1 p {
+    font-size: 24px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#section1 h1 {
+    padding: 15px;
+}
+
+/*--------------------*/
+
+/*--------Section2---------*/
+
+#section2 h1 {}
+
+.codd {
+    background-image: url(/Picture/codde.jpeg);
+    background-attachment: fixed;
+}
+
+/*--------------------*/
+
+/*--------Section 3---------*/
+
+/*--------------------*/
+
+/*--------Page 2---------*/
+.resume{
+    background-image: url(/Picture/rainy_road.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    
     
 }
+.summary2{
+    top: 50%;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    background-color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 200%;
+    padding: 10px;
+    margin-top: 10%
+   
+}
+.summary2 h1{
+    text-align: center;
+}
+.summary2 p{
+    padding: 20px
+}
+.section2-1{
+    background-color: white;
+    font-size: 130%;
+    padding: 15px;
+    margin: auto;
+    max-width: 80%;
+
+}
+
+.RTop{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+}
+.h2top{
+    text-align: center;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif
+}
+.resumeLi{
+    list-style: none
+}
+.resumeLi li:hover{
+    transform: scale(1);
+    color: black;
+}
+.recommendation{
+    max-height: 50%;
+    max-width: 50%;
+    padding: 5px;
+    transition: all .2s;
+}
+.recommendation:hover{
+    transform: scale(1.2);
+}
+/*--------------------*/
+
+/*--------Page 3--------*/
+.portfolio{
+    background: url(/Picture/butterfly.jpeg);
+    background-attachment: fixed;
+ background-size: cover;
+}
+/*--------------------*/
+
+/*--------Page 4---------*/
+.page4{
+   background: url(/Picture/blurry.jpg);
+}
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+
+/*--------------------*/
+
+/*-----------------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+
+/*--------Footer---------*/
+
+footer {
+    height: 40%;
+    display: flex;
+    background: #776363;
+    background: linear-gradient(-180deg, #232323, #3a3a3a, #404040, #414141);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 10px;
+
+}
+
+
+.left-side {
+
+    width: 33.33%;
+    margin-left: 1%;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+.footer-li {
+    list-style: none;
+    flex: 1;
+    padding: 3%;
+    font-size: 20px;
+    text-align-last: center;
+    cursor: context-menu;
+
+}
+
+.middle-side h2 {}
+
+.middle-side {
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    width: 33.33%;
+    font-size: 20px
+}
+
+.middle-side li {
+    padding: 6px;
+}
+
+.right-side {
+    width: 33.33%;
+    float: right;
+    padding: 20;
+    text-align-last: center
+}
+
+.right-side li:hover {
+    opacity: .5;
+}
+
+/*--------------------*/
+
+/*--------Media Query for---------*/
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .navs{
+        margin-top
+        }
+        .left-side{
+         
+        }
+}
+
+
+/*--------------------*/
+
+/*-----------------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
+
+/*-------- ---------*/
+
+/*--------------------*/
 
 
 
@@ -101,3 +468,119 @@ li a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 605e48645fe221f10e5d1bdb85b9b657a8624c65
