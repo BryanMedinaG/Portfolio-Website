@@ -10,15 +10,35 @@
 
 <body class="resume">
      <header id="top">
-        <div class="navs">
-            <div class="name"><a href="#">Bryan G. Medina</a></div>
-            <ul class="ul">
-                <li class="li"><a href="index.html">Home</a></li>
-                <li class="li"><a href="page2.html">Resume</a></li>
-                <li class="li"><a href="page3.html">Portfolio</a></li>
-                <li class="li"><a href="page4.html">Contact</a></li>
-            </ul>
-        </div>
+              <div class="navs">
+                       <div class="name"><a href="#">Bryan G. Medina</a></div>
+                       <ul class="ul">
+                                <li class="li"><a href="index.html">Home</a></li>
+                                <li class="li"><a href="page2.html">Resume</a></li>
+                                <div class="dropdown">
+                                         <li class="li"><a href="page3.html">Portfolio</a></li>
+                                         <div class="dropdown-c">
+                                                  <a href="#">Writing</a>
+                                                  <a href="#">Project</a>
+                                                  <a href="#">Photography</a>
+                                         </div>
+                                </div>
+                                <li class="li"><a href="page4.html">Contact</a></li>
+                       </ul>
+              </div>
+              <div id="nav" class="drop">
+                       <a href="javascript:void(0)" class="button" onclick="hideNav()">&times;</a>
+                       <a href="index.html">Home</a>
+                       <a href="page2.html">Resume</a>
+                       <a href="page3.html">Portfolio</a>
+                       <a href="#">Writing</a>
+                       <a href="#">Project</a>
+                       <a href="#">Photography</a>
+                       <a href="page4.html">Contact</a>
+              </div>
+              <div id="main">
+                       <span onclick="openNav()">&#9776;</span>
+              </div>
         <section class="summary2">
            <h1>Introduction</h1>
            <p>In this page you will see my resume and be able to see other things I know how to do. In addition you will learn about my hobbies and see my recommendation. Towards the bottom if you'd like you can just scroll to the bottom to read the summary of my resume. </p>
@@ -68,11 +88,11 @@
         </div>
         <div class="middle-side">
             <h2>Navigation</h2>
-            <li><a href="section0">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Photography</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">Portfolio</a></li>
+            <li><a href="page3.html">Contact</a></li>
+            <li><a href="page4.html">Resume</a></li>
+            <li><a href="page5.html">Photography</a></li>
         </div>
 
         <div class="right-side">
