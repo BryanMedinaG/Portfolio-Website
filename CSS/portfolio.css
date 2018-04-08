@@ -140,6 +140,7 @@ a {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 21px;
     height: 30%;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .ul {
@@ -150,6 +151,7 @@ a {
     margin-left: 74%;
     transition: all 0.5s;
     height: 70%;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .li {
@@ -158,6 +160,7 @@ a {
     padding: 15px 14px;
     transition: all 0.5s;
     height: 20%;
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -410,7 +413,9 @@ body.light-mode header {
 /*--------Page 4---------*/
 
 .page4 {
-    background: url(../Picture/blurry.jpg);
+    background: url(../Picture/Light/Desktop.jpg);
+    background-size: cover;
+    
 }
 
 
