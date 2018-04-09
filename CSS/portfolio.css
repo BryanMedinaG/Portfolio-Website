@@ -14,8 +14,9 @@ body {
 
 .switch {
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top: 73%;
+    left: 46%;
+    z-index: 2;
 }
 
 input[type="checkbox"] {
@@ -69,7 +70,7 @@ header {
 
 /* Nav Bar*/
 
-li {
+.li {
     text-decoration: none;
     list-style: none;
     transition: all 0.5s;
@@ -148,8 +149,8 @@ a {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    margin-left: 74%;
-    transition: all 0.5s;
+    margin-left: 58%;
+    transition: all 0.2s;
     height: 70%;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -158,13 +159,13 @@ a {
     float: left;
     display: block;
     padding: 15px 14px;
-    transition: all 0.5s;
+    transition: all 0.2s;
     height: 20%;
     font-family: 'Josefin Sans', sans-serif;
 
 }
 
-li:hover {
+.li:hover {
     color: #c6c6c6;
     transform: scale(1.2);
 }
@@ -187,26 +188,26 @@ header {
 
 .drop {
     display: none;
-    background: white;
+    background: inherit;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     left: 0;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.2s;
     height: 100%;
-    background: linear-gradient(-66766766680deg, #232323, #3a3a3a, #404040, #414141);
+    background: inherit;
 }
 
 .drop a {
     text-decoration: none;
     font-size: 35px;
-    color: black;
+    color: inherit;
     display: block;
-    transition: 0.4s;
+    transition: 0.2s;
     padding: 30px;
-    color: white;
+    color: inherit;
 }
 
 .drop a:hover,
@@ -226,10 +227,10 @@ span {
     display: none;
     font-size: 40px;
     cursor: pointer;
-    color: white;
+    color: inherit;
 }
 
-/*A----------Button and Header----------*/
+/*----------Button and Header----------*/
 
 .welcome {
     position: absolute;
@@ -271,7 +272,7 @@ span {
 
 /*--------Section1---------*/
 
-#section1 {
+.section1 {
     height: 50%;
     background-color: #ffffff;
     width: 100%;
@@ -284,54 +285,138 @@ span {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 300%;
+    padding: 20px
 }
 
-#section1 p {
+.section1 p {
     font-size: 24px;
     margin: 0 auto;
     max-width: 1200px;
 }
 
-#section1 h1 {
+.section1 h1 {
     padding: 15px;
 }
 
 /*--------------------*/
+/* D/L for Media Nav*/
+body.light-mode span{
+    color: black;
+}
+body.light-mode #nav{
 
-/* Dark and Light Mode for Page 1*/
-
+background-color: #d3d3d3;
+}
+body.light-mode #nav a{
+    color: black;
+}
+body.dark-mode #nav{
+ background: linear-gradient(-180deg, #232323, #3a3a3a, #404040, #414141);
+}
+/* Dark and Light Mode for repeated classes*/
+body.light-mode .section2-1{
+    background-color: white;
+}
+body.dark-mode .section2-1{
+    color: #bebebe;
+    background-color: #111;
+}
+body.dark-mode .summary2{
+    color: white;
+    background-color: #111
+}
+body.light-mode{
+    transition: 0.2s;
+}
 body.dark-mode {
-    background-image: url(../Picture/Dark/blurrySky.jpg);
-    background-size: cover;
-    background-attachment: fixed;
     background-color: #111;
     color: #eee;
+    transition: 0.2s;
 }
-
-body.dark-mode #section1 {
+/*--------Page 1 Dark/Light Mode---------*/
+body.dark-mode .section1 {
     background-color: #111;
-    color: #ffffff;
-    
+    color: #d3d3d3;
+    transition: 0.2s;
 
 }
-
-body.light-mode {
+body.dark-mode .page-zero{
+    background-image: url(/Picture/Dark/SF-Bridge.jpg);
+    transition: 0.2s;
+}
+body.light-mode .page-zero {
     background-image: url(../Picture/Light/DesktopPhone.jpg);
     background-size: cover;
     color: black;
     background-attachment: fixed;
+    transition: 0.2s;
 }
 
 body.light-mode header {
     color: black;
+    transition: 0.2s;
 
 }
+/* Page 2 D/L*/
 
-
+body.light-mode .resume{
+    background-image: url(/Picture/Light/NYC.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0.2s;
+}
+body.dark-mode .resume{
+    color: white;
+    background-image: url(/Picture/Dark/blackstreet.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: 0.2s;
+}
+/* Page 4 D/L*/
+body.light-mode .page4{
+    background:linear-gradient(-42455555280deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 24%, rgba(209,209,209,1) 49%, rgba(196,196,196,1) 73%, rgba(184,180,184,1) 100%);
+    transition: 0.2s;
+}
+body.dark-mode .page4{
+    background: #111;
+    transition: 0.2s;
+}
+/* page 3 d/l*/
+body.light-mode .portfolio{
+    background-image: url(/Picture/Light/apple-magic-keyboard-coffee-desk-162616.jpg);
+    transition: 0.2s;
+}
+body.dark-mode .portfolio{
+    background-image: url(/Picture/Dark/RoadTailLights.jpg);
+    transition: 0.2s;
+}
+/*page 5*/
+body.light-mode .page5{
+    background-image: url(/Picture/Light/ball.jpg);
+    transition: 0.2s;
+}
+body.dark-mode .page5{
+    background-image: url(/Picture/Dark/blur-cars-city-409701.jpg);
+    transition: 0.2s;
+}
+/*page 6*/
+body.light-mode .writing{
+    background-image: url(/Picture/Light/notebook.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: 0.2s;
+}
+body.dark-mode .writing{
+    background-image: url(/Picture/Dark/action-asphalt-blur-315934.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transition: 0.2s;
+    
+}
 /*--------Page 2---------*/
 
 .resume {
-    background-image: url(../Picture/rainy_road.jpeg);
+    background-image: url(/Picture/Light/bird.jpg);
     background-size: cover;
     background-attachment: fixed;
 
@@ -361,11 +446,21 @@ body.light-mode header {
     background-color: white;
     font-size: 130%;
     padding: 15px;
-    margin: auto;
-    max-width: 80%;
+    margin: auto 0;
+    max-width: 130%;
+    padding: 40px
 
 }
-
+.section2-1 p{
+    max-width: 80%;
+    margin-left: 10%;
+    font-size: 120%
+}
+.section2-1 h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
 .RTop {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -400,27 +495,74 @@ body.light-mode header {
 
 /*--------------------*/
 
-/*--------Page 3--------*/
+/*--------Projects--------*/
 
 .portfolio {
-    background: url(../Picture/butterfly.jpeg);
+    background: url(../Picture/Light/apple-magic-keyboard-coffee-desk-162616.jpg);
+    background: url(../Picture/Light/apple-magic-keyboard-coffee-desk-162616.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
-
+.projectimg{
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+}
 /*--------------------*/
 
-/*--------Page 4---------*/
+/*--------Contact Me Page---------*/
 
 .page4 {
-    background: url(../Picture/Light/Desktop.jpg);
-    background-size: cover;
+    background:linear-gradient(-42455555280deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 24%, rgba(209,209,209,1) 49%, rgba(196,196,196,1) 73%, rgba(184,180,184,1) 100%);
     
 }
+.contact{
+    position: relative;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    left: 15%;
+    width: 83.3%
+    
+}
+.contacts{
+    position: absolute;
+    top: 0%;
+    left: 37%
+}
+.contacts li{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+}
+input[type="text"]{
+    padding:10px
+}
+input[type="submit"],input[type="reset"]{
+    background-color: white;
+    position: relative;
+    width: 80px;
+    height: 40px;
+    -webkit-appearance: none;
+    background: white;
+    outline: none;
+    border-radius: 7px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.22);
+    transition: 0.5s;
+    cursor: pointer;
+}
 
-
-
-
+textarea{
+    width: 30.2%;
+    height: 200px;
+    resize: none;
+    font-size: 110%;
+    padding: 10px;
+}
+.socialm{
+    display: flex;
+    color: black;
+}
 /*--------Footer---------*/
 
 footer {
@@ -437,7 +579,15 @@ footer {
 footer h2 {
     margin-left: 9%
 }
-
+footer li{
+    list-style: none;
+    transition: 0.2s;
+    
+}
+footer li:hover{
+    color: #c6c6c6;
+    transform: scale(1.2)
+}
 .left-side {
 
     width: 33.33%;
@@ -485,7 +635,17 @@ footer h2 {
 /*--------------------*/
 
 /*--------Page 5-----------*/
-
+.page5{
+    background-image: url(/Picture/Light/ball.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.photo{
+font-size: 200%;
+    max-width: 1200px;
+    margin-left: 13%;
+    background: white;
+}
 .slideshow {
     position: relative;
     max-width: 900px;
@@ -522,7 +682,45 @@ footer h2 {
 /*--------------------*/
 
 /*--------Media Query for---------*/
+@media screen and (max-width: 1078px){
+     .navs {
+        display: none;
+    }
+    .drop {
+        display: inline;
+    }
+    span {
+        display: inline;
+    }
+    .contacts{
+        position: absolute;
+    }
+    .contact{
+        position: absolute;
+    }
+}
+@media screen and (max-width: 992px) {
+  .stt {
+        display: none;
+    }
+    
+    
+    .summary2 {
+        width: 100%;
+        height: 100%;
 
+    }
+    /*-------Navs--------*/
+    .navs {
+        display: none;
+    }
+    .drop {
+        display: inline;
+    }
+    span {
+        display: inline;
+    }
+}
 @media only screen and (max-width: 375px) and (max-height: 812px) {
 
     .stt {
@@ -537,7 +735,7 @@ footer h2 {
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 0px 20%
+        padding: 0px 20px
     }
     .right-side {
         display: none;
@@ -558,12 +756,23 @@ footer h2 {
         display: inline;
     }
 }
-
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
+@media screen and (max-width: 534px){
+     footer {
+        text-align: center;
+        
     }
-    .sidenav a {
-        font-size: 18px;
+    .left-side{
+        display: none;
+    }
+    .middle-side{
+        margin-left: 12%
+    }
+    .right-side{
+        display: block;
+    }
+    .contacts{
+        position: absolute;
+        left: -7%;
+        top: 110%;
     }
 }

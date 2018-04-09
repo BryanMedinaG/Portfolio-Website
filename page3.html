@@ -10,53 +10,89 @@
     </script>
 </head>
 
-<body class="portfolio">
-     <header id="top">
-        <div class="navs">
-            <div class="name"><a href="#">Bryan G. Medina</a></div>
-            <ul class="ul">
-                <li class="li"><a href="index.html">Home</a></li>
-                <li class="li"><a href="page2.html">Resume</a></li>
-                <li class="li"><a href="page3.html">Portfolio</a></li>
-                <li class="li"><a href="page4.html">Contact</a></li>
-            </ul>
-        </div>
+<body id="body" class="light-mode">
+   <div class="portfolio">
+    <header id="top">
+            <label class="switch">
+                    <input type="checkbox" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">
+                </label>
+            <div class="navs">
+                <div class="name"><a href="#">Bryan G. Medina</a></div>
+                <ul class="ul">
+                    <li class="li"><a href="index.html">Home</a></li>
+                    <li class="li"><a href="page2.html">Resume</a></li>
+                    <li class="li"><a href="page3.html">Projects</a></li>
+                    <li class="li"><a href="page5.html">Photography</a></li>
+                    <li class="li"><a href="page6.html">Writing</a></li>
+                    <li class="li"><a href="page4.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="nav" class="drop">
+                <a href="javascript:void(0)" class="button" onclick="hideNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="page2.html">Resume</a>
+                <a href="page3.html">Projects</a>
+                <a href="page5.html">Photography</a>
+                <a href="page6.html">Writing</a>
+                <a href="page4.html">Contact</a>
+            </div>
+            <div id="main">
+                <span onclick="openNav()">&#9776;</span>
+            </div>
         <div id="tbutton"><a class="stt" href="#top">Top</a></div>
-         <section class="summary2">
-             <h1>Introduction</h1>
-             <p>In this page I will inform you about the projects I have worked on, who I worked the projects with, and how we were able to accomplish it. I will talk about the difficulties that we faced during projects and how we found a solution around the problem. </p>
-         </section>
+        <section class="summary2">
+            <h1>Introduction</h1>
+            <p>In this page I will inform you about the projects I have worked on, who I worked the projects with, and how we were able to accomplish it. I will talk about the difficulties that we faced during projects and how we found a solution around the problem. </p>
+        </section>
     </header>
     <main>
         <section class="section2-1">
-            <h1>Projects</h1>
+            <h1>Project 1 - The Amur Leopard</h1>
+            <p>
+                The very first website (the picture below) I worked on was a website about raising awareness on an endangered species. The species my partner and I chose was the Amur Leopard. The reason we choice this animal was because of the animal was exotic but because there are only 28 alive in the world at this time. When my partner and I were making this website, we knew very basic HTML and CSS. There are many problems with the old website. For instance, if you look at the navigation you can see that at the beginning and the end you can see a dot. At the time I did not know what was causing them to be there. Now that I looked at the code it was just a simple period we accidentally left in the code. One thing that was hard for us was making the text animated. The text of all the headers and the navigation would slowly change colors from top left to down right. Looking back at in now there are many things we can improve upon.
+            </p>
         </section>
+        <img class="projectimg" src="/Picture/AmurLeopord.png" alt="My very first website I had ever made.">
+        <section class="section2-1">
+            <h1>Procect 2 - Digital Ethics</h1>
+            <p>The second project has been the biggest project for me this year even with all other classes combined. Even though it was a big project I had a lot of fun making my part of it. The project consisted of the whole class, or around 25 students, each working on a section of the website. For example, one group worked on the navigation while others worked on content for their section. The website was an informative website about how one should think about what they post online as it can lead to many consequences, even death. The group I was excited to be with, our section of the website was about Teen Driving and Technology. We all had a part to play, do my part was making the landing page for our section. This project had the most amount of difficulties we had to overcome. For instance, my images would not show up for and odd reason. The way we were able to over come that obstacle was by add another transparent image over the original. This made the picture on our landing page finally show up. The down arrow button is animated and was supposed to take you the section when clicked upon. Unfortunately we were never able to make it work.  </p>
+        </section>
+        <img class="projectimg" src="/Picture/digitalEthics.png" alt="">
     </main>
     <footer>
-        
-        <div class="left-side">
-            <h2>Resources</h2>
-            <li class="footer-li">HTML5</li>
-            <li class="footer-li">CSS3</li>
-            <li class="footer-li">JavaScript</li>
-        </div>
-        <div class="middle-side">
-            <h2>Navigation</h2>
-            <li><a href="section0">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Photography</a></li>
-        </div>
 
-        <div class="right-side">
-            <h2>Social Medias</h2>
-            <li><a href="https://plus.google.com/u/1/114068916806857097498" target="_blank"><img src="Picture/SocialMedia/google.png" alt="Google+" ></a></li>
-            <li><a href="https://www.instagram.com/bryan__medina__/?hl=en" target="_blank"><img src="Picture/SocialMedia/instagram.png" alt="Instagram"></a></li>
-            <li><a href="https://www.linkedin.com/in/bryan--medina--/" target="_blank"><img src="Picture/SocialMedia/linkdin.png" alt="Linkdin"></a></li>
-            <li><a href="skype:live:bryanmedinaina23?userinfo" target="_blank"><img src="Picture/SocialMedia/skype.png" alt="Skype"></a></li>
-            <li><a href="https://api.whatsapp.com/send?phone=15599401270" target="_blank"><img src="Picture/SocialMedia/whatsapp.png" alt="WhatsApp"></a></li>
+            <div class="left-side">
+                <h2>Resources</h2>
+                <ul>
+                    <li class="footer-li">HTML5</li>
+                    <li class="footer-li">CSS3</li>
+                    <li class="footer-li">JavaScript</li>
+                </ul>
+            </div>
+            <div class="middle-side">
+                <h2>Navigation</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Resume</a></li>
+                    <li><a href="page3.html">Projects</a></li>
+                    <li><a href="page5.html">Photography</a></li>
+                    <li><a href="page6.html">Writing</a></li>
+                    <li><a href="page4.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="right-side">
+                <h2>Social Medias</h2>
+                <ul>
+                    <li><a href="https://plus.google.com/u/1/114068916806857097498" target="_blank"><img src="Picture/SocialMedia/google.png" alt="Google+" ></a></li>
+                    <li><a href="https://www.instagram.com/bryan__medina__/?hl=en" target="_blank"><img src="Picture/SocialMedia/instagram.png" alt="Instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/in/bryan--medina--/" target="_blank"><img src="Picture/SocialMedia/linkdin.png" alt="Linkdin"></a></li>
+                    <li><a href="skype:live:bryanmedinaina23?userinfo" target="_blank"><img src="Picture/SocialMedia/skype.png" alt="Skype"></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=15599401270" target="_blank"><img src="Picture/SocialMedia/whatsapp.png" alt="WhatsApp"></a></li>
+                </ul>
+            </div>
+        </footer>
         </div>
-    </footer>
 </body>
 </html>

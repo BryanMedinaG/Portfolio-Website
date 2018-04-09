@@ -1,54 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title>Online Portfolio </title>
-        <link rel="stylesheet" href="CSS/portfolio.css">
-        <script src="JS/portfolio.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    </head>
+    <meta charset="UTF-8">
+    <title>Online Portfolio </title>
+    <link rel="stylesheet" href="CSS/portfolio.css">
+    <script src="JS/portfolio.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
 
-    <body>
+<body id="body" class="light-mode">
+    <div class="writing">
         <header id="top">
+            <label class="switch">
+                    <input type="checkbox" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">
+                </label>
             <div class="navs">
                 <div class="name"><a href="#">Bryan G. Medina</a></div>
                 <ul class="ul">
                     <li class="li"><a href="index.html">Home</a></li>
                     <li class="li"><a href="page2.html">Resume</a></li>
-                    <li class="li"><a href="page3.html">Portfolio</a></li>
+                    <li class="li"><a href="page3.html">Projects</a></li>
+                    <li class="li"><a href="page5.html">Photography</a></li>
+                    <li class="li"><a href="page6.html">Writing</a></li>
                     <li class="li"><a href="page4.html">Contact</a></li>
                 </ul>
             </div>
+            <div id="nav" class="drop">
+                <a href="javascript:void(0)" class="button" onclick="hideNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="page2.html">Resume</a>
+                <a href="page3.html">Projects</a>
+                <a href="page5.html">Photography</a>
+                <a href="page6.html">Writing</a>
+                <a href="page4.html">Contact</a>
+            </div>
+            <div id="main">
+                <span onclick="openNav()">&#9776;</span>
+            </div>
+
+ <section class="summary2">
+            <h1>Writing</h1>
+            <p>Here I will show you my writing skills. These argumentative essays were written by me for an english final.</p>
+        </section>
             <div id="tbutton"><a class="stt" href="#top">Top</a></div>
         </header>
-        <main>
-
+        <main class="main2">
+             <section class="section2-1">
+            <h1>Essays</h1>
+            <p>
+                Here I have wrote many essays about many different topics. These are not necessarily my best essays I've written but these are the essays I enjoyed the most writing. 
+                The first one is about the argument if whether or not many can bring one happiness. With the prompt we read 3 different types of literature. One was an article, a short story and a book. 
+                <br>
+                The second essay was about what the novel To Kill a Mockingbird teaches you. I decided to choose that it taught you about Courage. What what courage meant in the book for all the characters.    
+            </p>
+            <a href="/Picture/Essays/essay1.png" target="_blank"><img class="recommendation" src="Picture/Essays/essay1.png" alt="Essay 1"></a>
+           <a href="/Picture/Essays/essay2.png" target="_blank"><img class="recommendation" src="Picture/Essays/essay2.png" alt="Essay 2"></a>
+        </section>
         </main>
         <footer>
 
             <div class="left-side">
                 <h2>Resources</h2>
-                <li class="footer-li">HTML5</li>
-                <li class="footer-li">CSS3</li>
-                <li class="footer-li">JavaScript</li>
+                <ul>
+                    <li class="footer-li">HTML5</li>
+                    <li class="footer-li">CSS3</li>
+                    <li class="footer-li">JavaScript</li>
+                </ul>
             </div>
             <div class="middle-side">
                 <h2>Navigation</h2>
-                <li><a href="section0">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Photography</a></li>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Resume</a></li>
+                    <li><a href="page3.html">Projects</a></li>
+                    <li><a href="page5.html">Photography</a></li>
+                    <li><a href="page6.html">Writing</a></li>
+                    <li><a href="page4.html">Contact</a></li>
+                    
+                </ul>
             </div>
 
             <div class="right-side">
                 <h2>Social Medias</h2>
-                <li><a href="https://plus.google.com/u/1/114068916806857097498" target="_blank"><img src="Picture/SocialMedia/google.png" alt="Google+" ></a></li>
-                <li><a href="https://www.instagram.com/bryan__medina__/?hl=en" target="_blank"><img src="Picture/SocialMedia/instagram.png" alt="Instagram"></a></li>
-                <li><a href="https://www.linkedin.com/in/bryan--medina--/" target="_blank"><img src="Picture/SocialMedia/linkdin.png" alt="Linkdin"></a></li>
-                <li><a href="skype:live:bryanmedinaina23?userinfo" target="_blank"><img src="Picture/SocialMedia/skype.png" alt="Skype"></a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=15599401270" target="_blank"><img src="Picture/SocialMedia/whatsapp.png" alt="WhatsApp"></a></li>
+                <ul>
+                    <li><a href="https://plus.google.com/u/1/114068916806857097498" target="_blank"><img src="Picture/SocialMedia/google.png" alt="Google+" ></a></li>
+                    <li><a href="https://www.instagram.com/bryan__medina__/?hl=en" target="_blank"><img src="Picture/SocialMedia/instagram.png" alt="Instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/in/bryan--medina--/" target="_blank"><img src="Picture/SocialMedia/linkdin.png" alt="Linkdin"></a></li>
+                    <li><a href="skype:live:bryanmedinaina23?userinfo" target="_blank"><img src="Picture/SocialMedia/skype.png" alt="Skype"></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=15599401270" target="_blank"><img src="Picture/SocialMedia/whatsapp.png" alt="WhatsApp"></a></li>
+                </ul>
             </div>
         </footer>
-    </body>
+    </div>
+</body>
 </html>

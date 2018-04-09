@@ -9,20 +9,38 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
-<body>
+<body id="body" class="light-mode">
+   <div class="page5">
     <header id="top">
-        <div class="navs">
-            <div class="name"><a href="#">Bryan G. Medina</a></div>
-            <ul class="ul">
-                <li class="li"><a href="index.html">Home</a></li>
-                <li class="li"><a href="page2.html">Resume</a></li>
-                <li class="li"><a href="page3.html">Portfolio</a></li>
-                <li class="li"><a href="page4.html">Contact</a></li>
-            </ul>
-        </div>
+            <label class="switch">
+                    <input type="checkbox" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">
+                </label>
+            <div class="navs">
+                <div class="name"><a href="#">Bryan G. Medina</a></div>
+                <ul class="ul">
+                    <li class="li"><a href="index.html">Home</a></li>
+                    <li class="li"><a href="page2.html">Resume</a></li>
+                    <li class="li"><a href="page3.html">Projects</a></li>
+                    <li class="li"><a href="page5.html">Photography</a></li>
+                    <li class="li"><a href="page6.html">Writing</a></li>
+                    <li class="li"><a href="page4.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="nav" class="drop">
+                <a href="javascript:void(0)" class="button" onclick="hideNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="page2.html">Resume</a>
+                <a href="page3.html">Projects</a>
+                <a href="page5.html">Photography</a>
+                <a href="page6.html">Writing</a>
+                <a href="page4.html">Contact</a>
+            </div>
+            <div id="main">
+                <span onclick="openNav()">&#9776;</span>
+            </div>
         <section class="summary2">
-           <h1>Slide Show</h1>
-           <p>In this page you will see my slideshow of photos I've taken and photos I've photoshoped and or edited </p>
+            <h1>Slide Show</h1>
+            <p>In this page you will see my slide show of photos I've taken and photos I've Photoshoped and or edited </p>
         </section>
         <div id="tbutton"><a class="stt" href="#top">Top</a></div>
     </header>
@@ -34,34 +52,43 @@
             <a class="pbutton" onclick="changeImage(-1)" href="#SlideSection"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/></svg></a>
             <a class="nbutton" onclick="changeImage(1)" href="#SlideSection"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/></svg></a>
         </div>
-        <p>With many of these photo I've taken I have no eddited them in any way. The only photo I have eddited is the very first. With the first photo of the slideshow I simply adjusted the saturation up and made the tempetaure of the photo on the colder side.</p>
+        <p class="section2-1">With many of these photo I've taken I have no edited them in any way. The only photo I have edited is the very first. With the first photo of the slide show I simply adjusted the saturation up and made the temperature of the photo on the colder side.</p>
     </main>
-    <footer>
+   <footer>
 
-        <div class="left-side">
-            <h2>Resources</h2>
-            <li class="footer-li">HTML5</li>
-            <li class="footer-li">CSS3</li>
-            <li class="footer-li">JavaScript</li>
-        </div>
-        <div class="middle-side">
-            <h2>Navigation</h2>
-            <li><a href="section0">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Photography</a></li>
-        </div>
+            <div class="left-side">
+                <h2>Resources</h2>
+                <ul>
+                    <li class="footer-li">HTML5</li>
+                    <li class="footer-li">CSS3</li>
+                    <li class="footer-li">JavaScript</li>
+                </ul>
+            </div>
+            <div class="middle-side">
+                <h2>Navigation</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Resume</a></li>
+                    <li><a href="page3.html">Projects</a></li>
+                    <li><a href="page5.html">Photography</a></li>
+                    <li><a href="page6.html">Writing</a></li>
+                    <li><a href="page4.html">Contact</a></li>
+                    
+                </ul>
+            </div>
 
-        <div class="right-side">
-            <h2>Social Medias</h2>
-            <li><a href="https://plus.google.com/u/1/114068916806857097498" target="_blank"><img src="Picture/SocialMedia/google.png" alt="Google+" ></a></li>
-            <li><a href="https://www.instagram.com/bryan__medina__/?hl=en" target="_blank"><img src="Picture/SocialMedia/instagram.png" alt="Instagram"></a></li>
-            <li><a href="https://www.linkedin.com/in/bryan--medina--/" target="_blank"><img src="Picture/SocialMedia/linkdin.png" alt="Linkdin"></a></li>
-            <li><a href="skype:live:bryanmedinaina23?userinfo" target="_blank"><img src="Picture/SocialMedia/skype.png" alt="Skype"></a></li>
-            <li><a href="https://api.whatsapp.com/send?phone=15599401270" target="_blank"><img src="Picture/SocialMedia/whatsapp.png" alt="WhatsApp"></a></li>
+            <div class="right-side">
+                <h2>Social Medias</h2>
+                <ul>
+                    <li><a href="https://plus.google.com/u/1/114068916806857097498" target="_blank"><img src="Picture/SocialMedia/google.png" alt="Google+" ></a></li>
+                    <li><a href="https://www.instagram.com/bryan__medina__/?hl=en" target="_blank"><img src="Picture/SocialMedia/instagram.png" alt="Instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/in/bryan--medina--/" target="_blank"><img src="Picture/SocialMedia/linkdin.png" alt="Linkdin"></a></li>
+                    <li><a href="skype:live:bryanmedinaina23?userinfo" target="_blank"><img src="Picture/SocialMedia/skype.png" alt="Skype"></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=15599401270" target="_blank"><img src="Picture/SocialMedia/whatsapp.png" alt="WhatsApp"></a></li>
+                </ul>
+            </div>
+        </footer>
         </div>
-    </footer>
 </body>
 
 </html>

@@ -2,97 +2,95 @@
 <html lang="en">
 
 <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Online Portfolio </title>
-         <link rel="stylesheet" href="CSS/portfolio.css">
-         <script src="JS/portfolio.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Portfolio </title>
+    <link rel="stylesheet" href="CSS/portfolio.css">
+    <script src="JS/portfolio.js"></script>
 </head>
 
-<body id="body" class="light-mode page-zero">
-         <header id="top">
-                <label class="switch">
-                    <input type="checkbox" type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">
+<body id="body" class="light-mode">
+    <div class="page-zero">
+        <header id="top">
+            <label class="switch">
+                    <input type="checkbox" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">
                 </label>
-                  <div class="navs">
-                           <div class="name"><a href="#">Bryan G. Medina</a></div>
-                           <ul class="ul">
-                                    <li class="li"><a href="index.html">Home</a></li>
-                                    <li class="li"><a href="page2.html">Resume</a></li>
-                                    <div class="dropdown">
-                                             <li class="li"><a href="page3.html">Portfolio</a></li>
-                                             <div class="dropdown-c">
-                                                      <a href="#">Writing</a>
-                                                      <a href="#">Project</a>
-                                                      <a href="page5.html">Photography</a>
-                                             </div>
-                                    </div>
-                                    <li class="li"><a href="page4.html">Contact</a></li>
-                           </ul>
-                  </div>
-                  <div id="nav" class="drop">
-                           <a href="javascript:void(0)" class="button" onclick="hideNav()">&times;</a>
-                           <a href="index.html">Home</a>
-                                    <a href="page2.html">Resume</a>
-                                    <a href="page3.html">Portfolio</a>
-                                    <a href="#">Writing</a>
-                                    <a href="#">Project</a>
-                                    <a href="#">Photography</a>
-                                    <a href="page4.html">Contact</a>
-                  </div>
-                  <div id="main">
-                           <span onclick="openNav()">&#9776;</span>
-                  </div>
-                 
-                           <h1 class="welcome">My Portfolio</h1>
-                  
-                  <div id="tbutton"><a class="stt" href="#top">Top</a></div>
-         </header>
-         <main>
-                  <section id="section1">
-                           <h1 class="about"> About Me</h1>
-                           <p>
-                                    Hello, I’m Bryan. I’m currently a student over at The Center of Advanced Research & Technology. I am enrolled in the Web Development lab. Everyone in the class learns how to use use multiple coding languages such as HTML, CSS, and JavaScript. When learning these coding languages we also learn how to work with groups on projects. These projects can be challenging but the end product is always the best feeling when you see what you and your team has made. Hopefully with what you see around my website you can give me a chance at having an opportunity in this field. I’m not limited to just coding either. I am familiar with Adobe Photoshop, Adobe After Effects CS6, and Sony Vegas Pro 12. I’ve also done a couple of very small projects with Cinema 4D.
-                           </p>
-                  </section>
-                  <img src="/Picture/PIT/RainEdited.JPG" alt="" style=" background-size:cover;background-attachment: fixed; height: 50%; width: 100%;">
-                  <section id="section1">
-                   <h2 class="about">About The Website</h2>
-                    <p>I hope you will give the rest of my website a look at. Now I will give you a little bit of detail about my website. At the bottom you will see what I used to make this website. What I used to make the website was HTML5, CS3, JavaScript using the Adobe Brackets Coding Software. I got inpiration for the design from W3School, StackOverflow, and AAAAWARDS website. The toggole at the very top under the "My Portfolio" is a toggle to change the theme of the website from a light theme to a darker theme. If you the window for the brower you are using smaller, you will see how my website changes to adjust to smaller devices. For instance, the navigation turns into a drop down menu. Constantly at the bottom right of the page, no matter where you have scrolled to, will be a button that will take you to the top whenever clicked on. At the very bottom of the pages will have the footer. Here you can see the navigation to different pages so there isn't more need to scroll to the top to navigate. Last, on the right side of the footer will have Social Medias you can contact me through. Clicking on the icons will directly take you to the pages to see my profiles or to call me. There is one note, clicking on Skype will only work if you have the application installed since they do not have a web page version of Skype at the moment.</p>
-                  </section>
-         </main>
-         <footer>
+            <div class="navs">
+                <div class="name"><a href="#">Bryan G. Medina</a></div>
+                <ul class="ul">
+                    <li class="li"><a href="index.html">Home</a></li>
+                    <li class="li"><a href="page2.html">Resume</a></li>
+                    <li class="li"><a href="page3.html">Projects</a></li>
+                    <li class="li"><a href="page5.html">Photography</a></li>
+                    <li class="li"><a href="page6.html">Writing</a></li>
+                    <li class="li"><a href="page4.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="nav" class="drop">
+                <a href="javascript:void(0)" class="button" onclick="hideNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="page2.html">Resume</a>
+                <a href="page3.html">Projects</a>
+                <a href="page5.html">Photography</a>
+                <a href="page6.html">Writing</a>
+                <a href="page4.html">Contact</a>
+            </div>
+            <div id="main">
+                <span onclick="openNav()">&#9776;</span>
+            </div>
 
-                  <div class="left-side">
-                           <h2>Resources</h2>
-                           <ul>
-                                    <li class="footer-li">HTML5</li>
-                                    <li class="footer-li">CSS3</li>
-                                    <li class="footer-li">JavaScript</li>
-                           </ul>
-                  </div>
-                  <div class="middle-side">
-                           <h2>Navigation</h2>
-                           <ul>
-                                    <li><a href="section0">Home</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">Resume</a></li>
-                                    <li><a href="#">Photography</a></li>
-                           </ul>
-                  </div>
+            <h1 class="welcome">My Portfolio</h1>
 
-                  <div class="right-side">
-                           <h2>Social Medias</h2>
-                           <ul>
-                                    <li><a href="https://plus.google.com/u/1/114068916806857097498" target="_blank"><img src="Picture/SocialMedia/google.png" alt="Google+" ></a></li>
-                                    <li><a href="https://www.instagram.com/bryan__medina__/?hl=en" target="_blank"><img src="Picture/SocialMedia/instagram.png" alt="Instagram"></a></li>
-                                    <li><a href="https://www.linkedin.com/in/bryan--medina--/" target="_blank"><img src="Picture/SocialMedia/linkdin.png" alt="Linkdin"></a></li>
-                                    <li><a href="skype:live:bryanmedinaina23?userinfo" target="_blank"><img src="Picture/SocialMedia/skype.png" alt="Skype"></a></li>
-                                    <li><a href="https://api.whatsapp.com/send?phone=15599401270" target="_blank"><img src="Picture/SocialMedia/whatsapp.png" alt="WhatsApp"></a></li>
-                           </ul>
-                  </div>
-         </footer>
+            <div id="tbutton"><a class="stt" href="#top">Top</a></div>
+        </header>
+        <main>
+            <section class="section1">
+                <h2 class="about" style="margin-top: 0px;"> About Me</h2>
+                <p>
+                    Hello, I’m Bryan. I’m currently a student over at The Center of Advanced Research & Technology. I am enrolled in the Web Development lab. Everyone in the class learns how to use multiple coding languages such as HTML, CSS, and JavaScript. When learning these coding languages we also learn how to work with groups on projects. These projects can be challenging but the end product is always the best feeling when you see what you and your team has made. Hopefully with what you see around my website you can give me a chance at having an opportunity in this field. I’m not limited to just coding either. I am familiar with Adobe Photoshop, Adobe After Effects CS6, and Sony Vegas Pro 12. I’ve also done a couple of very small projects with Cinema 4D.
+                </p>
+            </section>
+            <img class="porjectimg" src="Picture/cart.jpg" alt="" style="display: block; height: 100%;">
+            <section class="section1">
+                <h2 class="about" style="margin-top: 0px;">About The Website</h2>
+                <p>I hope you will give the rest of my website a look at. Now I will give you a little bit of detail about my website. At the bottom you will see what I used to make this website. What I used to make the website was HTML, CS, JavaScript using the Adobe Brackets Coding Software. I got inspiration for the design from W3School, StackOverflow, and AWWWARDS website. The toggle at the very top under the "My Portfolio" is a toggle to change the theme of the website from a light theme to a darker theme. If you the window for the browser you are using smaller, you will see how my website changes to adjust to smaller devices. For instance, the navigation turns into a drop down menu. Constantly at the bottom right of the page, no matter where you have scrolled to, will be a button that will take you to the top whenever clicked on. At the very bottom of the pages will have the footer. Here you can see the navigation to different pages so there isn't more need to scroll to the top to navigate. Last, on the right side of the footer will have Social Medias you can contact me through. Clicking on the icons will directly take you to the pages to see my profiles or to call me. There is one note, clicking on Skype will only work if you have the application installed since they do not have a web page version of Skype at the moment.</p>
+            </section>
+        </main>
+        <footer>
+
+            <div class="left-side">
+                <h2>Resources</h2>
+                <ul>
+                    <li class="footer-li">HTML5</li>
+                    <li class="footer-li">CSS3</li>
+                    <li class="footer-li">JavaScript</li>
+                </ul>
+            </div>
+            <div class="middle-side">
+                <h2>Navigation</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Resume</a></li>
+                    <li><a href="page3.html">Projects</a></li>
+                    <li><a href="page5.html">Photography</a></li>
+                    <li><a href="page6.html">Writing</a></li>
+                    <li><a href="page4.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="right-side">
+                <h2>Social Medias</h2>
+                <ul>
+                    <li><a href="https://plus.google.com/u/1/114068916806857097498" target="_blank"><img src="Picture/SocialMedia/google.png" alt="Google+" ></a></li>
+                    <li><a href="https://www.instagram.com/bryan__medina__/?hl=en" target="_blank"><img src="Picture/SocialMedia/instagram.png" alt="Instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/in/bryan--medina--/" target="_blank"><img src="Picture/SocialMedia/linkdin.png" alt="Linkdin"></a></li>
+                    <li><a href="skype:live:bryanmedinaina23?userinfo" target="_blank"><img src="Picture/SocialMedia/skype.png" alt="Skype"></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=15599401270" target="_blank"><img src="Picture/SocialMedia/whatsapp.png" alt="WhatsApp"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
