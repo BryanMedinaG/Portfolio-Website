@@ -10,7 +10,7 @@ function openNav(){
 
 // Slide Show
 
-var images = ["Picture/PIT/BranchUpClose.jpg","Picture/PIT/Grass.JPG","Picture/PIT/JaunsPlant.JPG","Picture/PIT/MR2.JPG","Picture/PIT/RainEdited.JPG","Picture/PIT/rainyDaySchool.JPG","Picture/PIT/SunnyThorn.JPG","Picture/PIT/TreeBranch.JPG","Picture/PIT/Umbrella.JPG","Picture/PIT/Weeds.JPG"]
+var images = ["Picture/PIT/BranchUpClose.jpg","Picture/PIT/Grass.JPG","Picture/PIT/MR2.JPG","Picture/PIT/RainEdited.JPG","Picture/PIT/TreeBranch.JPG","Picture/PIT/Weeds.JPG"]
 var imageNumber = 0;
 var imageLength= images.length -1;
 

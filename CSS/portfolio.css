@@ -149,9 +149,9 @@ a {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    margin-left: 58%;
+    margin-left: 64%;
     transition: all 0.2s;
-    height: 70%;
+    height: 20%;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -341,7 +341,7 @@ body.dark-mode .section1 {
 
 }
 body.dark-mode .page-zero{
-    background-image: url(/Picture/Dark/SF-Bridge.jpg);
+    background-image: url(../Picture/Dark/SF-Bridge.jpg);
     transition: 0.2s;
 }
 body.light-mode .page-zero {
@@ -360,14 +360,14 @@ body.light-mode header {
 /* Page 2 D/L*/
 
 body.light-mode .resume{
-    background-image: url(/Picture/Light/NYC.jpg);
+    background-image: url(../Picture/Light/NYC.jpg);
     background-size: cover;
     background-attachment: fixed;
     transition: 0.2s;
 }
 body.dark-mode .resume{
     color: white;
-    background-image: url(/Picture/Dark/blackstreet.jpg);
+    background-image: url(../Picture/Dark/blackstreet.jpg);
     background-attachment: fixed;
     background-size: cover;
     transition: 0.2s;
@@ -383,31 +383,31 @@ body.dark-mode .page4{
 }
 /* page 3 d/l*/
 body.light-mode .portfolio{
-    background-image: url(/Picture/Light/apple-magic-keyboard-coffee-desk-162616.jpg);
+    background-image: url(../Picture/Light/apple-magic-keyboard-coffee-desk-162616.jpg);
     transition: 0.2s;
 }
 body.dark-mode .portfolio{
-    background-image: url(/Picture/Dark/RoadTailLights.jpg);
+    background-image: url(../Picture/Dark/RoadTailLights.jpg);
     transition: 0.2s;
 }
 /*page 5*/
 body.light-mode .page5{
-    background-image: url(/Picture/Light/ball.jpg);
+    background-image: url(../Picture/Light/ball.jpg);
     transition: 0.2s;
 }
 body.dark-mode .page5{
-    background-image: url(/Picture/Dark/blur-cars-city-409701.jpg);
+    background-image: url(../Picture/Dark/blur-cars-city-409701.jpg);
     transition: 0.2s;
 }
 /*page 6*/
 body.light-mode .writing{
-    background-image: url(/Picture/Light/notebook.jpg);
+    background-image: url(../Picture/Light/notebook.jpg);
     background-attachment: fixed;
     background-size: cover;
     transition: 0.2s;
 }
 body.dark-mode .writing{
-    background-image: url(/Picture/Dark/action-asphalt-blur-315934.jpg);
+    background-image: url(../Picture/Dark/action-asphalt-blur-315934.jpg);
     background-attachment: fixed;
     background-size: cover;
     transition: 0.2s;
@@ -416,7 +416,7 @@ body.dark-mode .writing{
 /*--------Page 2---------*/
 
 .resume {
-    background-image: url(/Picture/Light/bird.jpg);
+    background-image: url(../Picture/Light/bird.jpg);
     background-size: cover;
     background-attachment: fixed;
 
